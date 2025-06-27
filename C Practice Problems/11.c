@@ -5,7 +5,7 @@ int main()
   int i = 1;
   for (;;)
   {
-    printf("%d\n", i++);
+    printf("%d ", i++);
     if (i > 10)
       break;
   }
